@@ -3,7 +3,7 @@
 ## Abstract
 Spatial multi-omics data offer a powerful framework for integrating diverse molecular profiles while maintaining the spatial organization of cells. However, inherent variations in data quality and noise levels across different modalities pose significant challenges to accurate integration and analysis. In this paper, we introduce CANDIES, which leverages a conditional diffusion model and contrastive learning to effectively denoise spatial multi-omics data while generating a unified and comprehensive representation. CANDIES shows superior performance on various downstream tasks, including denoising, spatial domain identification, pseudo-Spatiotemporal Map (pSM) construction, and trait domain association map (gsMap) generation. We conducted extensive evaluations on diverse synthetic and real datasets, including spatial CITE-seq data from human skin biopsy tissue, MISAR-seq data from the mouse brain, spatial ATAC-RNA-seq data from the mouse embryo and 10× visium data from human lymph nodes. Through gsMap analysis, we identified significant correlations between traits and tissues, notably the heritability enrichment of psychiatric and behavioral traits in the dorsal pallium, thalamus, and hindbrain of the mouse brain. These findings demonstrate that CANDIES effectively generates unified representations that accurately capture critical biological insights.
 
-![image](https://github.com/zouwanpeng/CANDIES/blob/main/CANDIES.png)
+![image](https://github.com/YeLiu-Lab/CANDIES/blob/main/CANDIES.png)
 
 ## Requirements
 You'll need to install the following packages in order to run the codes.
